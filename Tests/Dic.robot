@@ -8,7 +8,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${ENVIRONMENT} =  prod
-${BROWSER} =  ie
+${BROWSER} =  chrome
 &{URL}  dev=http://dev.amazon.com  prod=http://www.amazon.com
 
 *** Test Cases ***
