@@ -14,7 +14,7 @@ ${BROWSER} =  ie
 *** Test Cases ***
 User must sign in to check out
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  Smoke  Regression
     Open Browser  ${URL.${ENVIRONMENT}}  ${BROWSER}
     sleep  4
     Wait Until Page Contains  Your Amazon.com
