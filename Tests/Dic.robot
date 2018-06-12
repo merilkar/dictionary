@@ -16,7 +16,7 @@ User must sign in to check out
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
     Open Browser  ${URL.${ENVIRONMENT}}  ${BROWSER}
-    sleep  5
+    sleep  4
     Wait Until Page Contains  Your Amazon.com
     Input Text  id=twotabsearchtextbox  Ferrari 458
     Click Button  xpath=//*[@id="nav-search"]/form/div[2]/div/input
