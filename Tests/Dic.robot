@@ -30,4 +30,6 @@ User must sign in to check out
     Element Text Should Be  ap_signin1a_pagelet_title  Sign In
     Close Browser
 
+Feature 2
+
 *** Keywords ***
